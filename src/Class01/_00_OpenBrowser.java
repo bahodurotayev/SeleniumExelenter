@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class _00_OpenBrowser {
     public static void main(String[] args) {
         // 1. Establish a connection with the driver(s)
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe"); // Windows users add .exe at the end ("drivers/chromedriver.exe")
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe.exe"); // Windows users add .exe at the end ("drivers/chromedriver.exe.exe")
         // 2. Open the browser using the Chromedriver's class constructor
         WebDriver driver = new ChromeDriver(); // Launch the browser for us
 

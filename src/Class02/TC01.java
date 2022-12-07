@@ -15,7 +15,7 @@ public class TC01 {
          *
          * */
 
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com");
 

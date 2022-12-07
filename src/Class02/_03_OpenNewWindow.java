@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class _03_OpenNewWindow {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver"); // Windows users add .exe
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe.exe"); // Windows users add .exe
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
 //        driver.manage().window().maximize();

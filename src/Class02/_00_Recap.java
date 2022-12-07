@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class _00_Recap {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver"); // Windows users add .exe
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe.exe"); // Windows users add .exe
         WebDriver driver = new ChromeDriver();
 
         // Navigating to Amazon website
@@ -17,8 +17,8 @@ public class _00_Recap {
         driver.manage().window().fullscreen();
 
         /**
-         *  Driver path from the root: drivers/chromedriver
-         *  Absolute path: /Users/shahnoza/IdeaProjects/SeleniumNov2022/drivers/chromedriver
+         *  Driver path from the root: drivers/chromedriver.exe
+         *  Absolute path: /Users/shahnoza/IdeaProjects/SeleniumNov2022/drivers/chromedriver.exe
          */
 
         String title = driver.getTitle();

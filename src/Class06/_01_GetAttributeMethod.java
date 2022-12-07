@@ -9,7 +9,7 @@ public class _01_GetAttributeMethod {
     private static String url = "https://exelentersdet.com/";
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver"); // window users add '.exe' at the end
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe"); // window users add '.exe' at the end
         WebDriver driver = new ChromeDriver();
         driver.get(url);
 

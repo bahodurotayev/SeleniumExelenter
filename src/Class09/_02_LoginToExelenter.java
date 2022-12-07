@@ -22,7 +22,7 @@ public class _02_LoginToExelenter {
 
         switch (browser.toLowerCase()) {
             case "chrome" -> {
-                System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
                 driver = new ChromeDriver();
             }
             case "firefox" -> {
