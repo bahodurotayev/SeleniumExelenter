@@ -21,7 +21,6 @@ public class _00_OpenBrowser {
         // Go to Google website and retrieve the URL and print it to the console:
         System.out.println("getCurrentUrl: " + driver.getCurrentUrl());
 
-
         driver.quit();
     }
 }
