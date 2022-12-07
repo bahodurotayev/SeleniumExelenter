@@ -1,11 +1,11 @@
 package Class10;
 
 
-import org.apache.poi.ss.usermodel.Cell;
+/*import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;*/
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -20,7 +20,7 @@ import java.io.IOException;
 
 public class _01_ExcelIntro {
     public static void main(String[] args) throws IOException {
-        String filePath = "/Users/shahnoza/Desktop/Book1.xlsx";     // Don't forget the file name here, including the extension. (.xlsx)
+        /*String filePath = "/Users/shahnoza/Desktop/Book1.xlsx";     // Don't forget the file name here, including the extension. (.xlsx)
         FileInputStream fis = new FileInputStream(filePath);  // <-- Specifying the excel filepath and insert it inside FIS
 
         Workbook workbook = new XSSFWorkbook(fis);          // <--- Access the workbook (exel file)
@@ -41,7 +41,7 @@ public class _01_ExcelIntro {
         System.out.println(r2c3);
 
         // Task 3: Phoenix
-        System.out.println(sheet.getRow(2).getCell(2));
+        System.out.println(sheet.getRow(2).getCell(2));*/
 
 
     }
