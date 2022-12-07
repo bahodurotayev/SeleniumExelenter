@@ -2,6 +2,7 @@ package Class09;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.FileInputStream;
@@ -27,8 +28,8 @@ public class _02_LoginToExelenter {
             }
             case "firefox" -> {
                 // "webdriver.geckodriver.driver" --> this one works too, "drivers/gecko.exe" works too, but just for Windows.
-                System.setProperty("webdriver.gecko.driver", "drivers/geckodriver");
-                driver = new FirefoxDriver();
+                System.setProperty("webdriver.edge.verboseLogging", "/drivers/msedgedriver.exe");
+                driver = new EdgeDriver();
             }
         }
 
