@@ -4,7 +4,7 @@ import utils.BaseClass;
 
 import static utils.BaseClass.*;
 
-public class TestClass {
+public class TestClass extends BaseClass{
     public static void main(String[] args) {
         setUp();                                 // <--- Launch the browser.
 

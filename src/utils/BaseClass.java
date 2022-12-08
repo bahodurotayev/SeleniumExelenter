@@ -2,6 +2,7 @@ package utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 // NOTE: THIS CLASS IS USED TO LAUNCH AND QUIT THE BROWSER
@@ -14,9 +15,9 @@ public class BaseClass {
                 System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
                 driver = new ChromeDriver();
             }
-            case "firefox" -> {
-                System.setProperty("webdriver.gecko.driver", Constants.GECKO_DRIVER_PATH);
-                driver = new FirefoxDriver();
+            case "edge" -> {
+                System.setProperty("webdriver.edge.verboseLogging", Constants.EDGE_DRIVER_PATH);
+                driver = new EdgeDriver();
             }
             default -> throw new RuntimeException("Browser is not supported");
         }
